@@ -1,0 +1,18 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1633599023539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1633599023539,
+            "name": "Commit-0",
+            "content": "# RockNSwap SDK\n\nForked from the [Uniswap SDK](https://github.com/Uniswap/uniswap-v2-sdk/commit/a88048e9c4198a5bdaea00883ca00c8c8e582605).\n\nYou can refer to the Uniswap SDK documentation [uniswap.org](https://uniswap.org/docs/v2/SDK/getting-started/).\n\n## Running tests\n\nTo run the tests, follow these steps. You must have at least node v10 and [yarn](https://yarnpkg.com/) installed.\n\nFirst clone the repository:\n\n```sh\ngit clone https://github.com/pancakeswap/pancake-swap-sdk.git\n```\n\nMove into the pancakeswap-sdk working directory\n\n```sh\ncd pancakeswap-sdk/\n```\n\nInstall dependencies\n\n```sh\nyarn install\n```\n\nRun tests\n\n```sh\nyarn test\n```\n\nYou should see output like the following:\n\n```sh\nyarn run v1.22.4\n$ tsdx test\n PASS  test/constants.test.ts\n PASS  test/pair.test.ts\n PASS  test/fraction.test.ts\n PASS  test/miscellaneous.test.ts\n PASS  test/entities.test.ts\n PASS  test/trade.test.ts\n\nTest Suites: 1 skipped, 6 passed, 6 of 7 total\nTests:       3 skipped, 82 passed, 85 total\nSnapshots:   0 total\nTime:        5.091s\nRan all test suites.\n✨  Done in 6.61s.\n```\n"
+        }
+    ]
+}
